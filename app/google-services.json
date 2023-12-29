@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "246983951260",
+    "project_id": "chatappassignment-f47ae",
+    "storage_bucket": "chatappassignment-f47ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246983951260:android:80d77400351e0e579a7e59",
+        "android_client_info": {
+          "package_name": "com.example.chatappassignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoeiPCAHHnpPozjTfaJ2v9NtpuszWiaMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
