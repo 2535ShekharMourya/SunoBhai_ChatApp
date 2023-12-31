@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -13,9 +14,9 @@ import com.google.firebase.database.FirebaseDatabase
 class SignUp : AppCompatActivity() {
     private lateinit var mAuth: FirebaseAuth
     private lateinit var mDbRef:DatabaseReference
-    private lateinit var edtName: EditText
-    private lateinit var edtEmail: EditText
-    private lateinit var edtPassword: EditText
+    private lateinit var edtName: TextInputEditText
+    private lateinit var edtEmail: TextInputEditText
+    private lateinit var edtPassword: TextInputEditText
     private lateinit var btnSignup: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -9,44 +9,77 @@
         android:id="@+id/app_logo"
         android:src="@drawable/meetme"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
         android:layout_width="150dp"
         android:layout_height="150dp"/>
-    <EditText
-        android:layout_below="@+id/app_logo"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/edt_background"
-        android:id="@+id/edt_user"
-        android:hint="UserName"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        android:layout_below="@id/user"
+        android:id="@+id/email"
+        android:layout_height="80dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Your Valid Email Id"
+            android:paddingStart="50dp"
+            android:id="@+id/edt_email"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edt_background"
+            android:layout_height="70dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <EditText
-        android:layout_below="@+id/edt_user"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/edt_background"
-        android:id="@+id/edt_email"
-        android:hint="Email"
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
-    <EditText
-        android:layout_below="@+id/edt_email"
-        android:id="@+id/edt_password"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/edt_background"
-        android:hint="Password"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/baseline_perm_identity_24"
+        android:layout_below="@id/app_logo"
+        android:id="@+id/user"
+        android:layout_height="80dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:paddingStart="50dp"
+            android:hint="Enter UserName"
+            android:id="@+id/edt_user"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edt_background"
+            android:layout_height="70dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        android:id="@+id/password"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/baseline_password_24"
+        android:layout_below="@id/email"
+        android:layout_height="80dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:paddingStart="50dp"
+            android:id="@+id/edt_password"
+            android:hint="Enter Your Password"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edt_background"
+            android:layout_height="70dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_signup"
-        android:text="SignUp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/btn_background"
-        android:layout_below="@+id/edt_password"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/password"
+        android:text="SIGN UP"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:id="@+id/btn_signup"
+        android:background="@drawable/btn_background"
+        android:layout_height="60dp"/>
 </RelativeLayout>
