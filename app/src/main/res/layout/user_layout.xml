@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="78dp"
             android:layout_marginLeft="10dp"
              android:src="@drawable/man"
             android:layout_height="80dp">
