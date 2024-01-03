@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item
+        android:title="Vidio Call"
+        android:id="@+id/vidiocall"
+        android:icon="@drawable/baseline_videocam_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Phone"
+        android:id="@+id/phone"
+        android:icon="@drawable/baseline_phone_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView">
+    </item>
+    <item android:id="@+id/notify"
+        android:title="Notification"
+        />
+
+    <item android:id="@+id/add"
+        android:title="Add New"> </item>
+    <item android:id="@+id/block"
+        android:title="Block"> </item>
+    <item android:id="@+id/share"
+        android:title="share"> </item>
+    <item android:id="@+id/exit"
+        android:title="Exit"> </item>
+    <item android:id="@+id/setting"
+        android:title="Settings"> </item>
+    <item android:id="@+id/logout"
+        android:title="Log Out"> </item>
 </menu>

@@ -49,17 +49,18 @@
             android:layout_height="70dp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_marginTop="10dp"
         android:layout_below="@id/password"
         android:text="LOG IN"
         android:layout_centerHorizontal="true"
         android:textSize="24sp"
         android:id="@+id/btn_login"
+
         android:background="@drawable/btn_background"
         android:layout_height="60dp"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_marginTop="10dp"
         android:layout_below="@id/btn_login"
         android:text="SIGN UP"
