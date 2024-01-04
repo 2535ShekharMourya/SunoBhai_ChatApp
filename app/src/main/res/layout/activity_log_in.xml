@@ -70,5 +70,20 @@
         android:background="@drawable/btn_background"
         android:layout_height="60dp"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/btn_googleSign"
+        android:layout_below="@+id/btn_signup"
+        android:background="@color/white"
+        android:text="Google"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/googleab"
+        android:textAllCaps="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+
 
 </RelativeLayout>
