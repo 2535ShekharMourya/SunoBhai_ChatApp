@@ -82,4 +82,19 @@
         android:id="@+id/btn_signup"
         android:background="@drawable/btn_background"
         android:layout_height="60dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_googleSign"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn_signup"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:drawableStart="@drawable/googleab"
+        android:textStyle="bold"
+        android:text="Google"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
 </RelativeLayout>

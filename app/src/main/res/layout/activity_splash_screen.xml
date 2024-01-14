@@ -3,38 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/wdev"
+    android:background="@drawable/splashback"
     android:layout_height="match_parent"
     tools:context=".Splash_Screen">
 
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="367dp"
-        android:layout_height="200dp"
-        android:gravity="center"
-        android:text="@string/About_Company"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
-
-    <TextView
         android:id="@+id/textView2"
-        android:layout_width="328dp"
-        android:layout_height="77dp"
-        android:layout_marginBottom="44dp"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="4dp"
         android:gravity="center"
         android:text="Version: 1.0.0"
-        android:textColor="@color/white"
-        android:textSize="40sp"
+        android:textColor="#4D1919"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

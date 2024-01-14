@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.EditText
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.widget.AppCompatButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.FirebaseAuth
 
@@ -15,6 +16,7 @@ class LogIn : AppCompatActivity() {
     private lateinit var edtPassword: TextInputEditText
     private lateinit var btnLogin: Button
     private lateinit var btnSignup: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_log_in)
@@ -25,6 +27,7 @@ class LogIn : AppCompatActivity() {
         edtPassword = findViewById(R.id.edt_password)
         btnLogin = findViewById(R.id.btn_login)
         btnSignup = findViewById(R.id.btn_signup)
+
 
         btnSignup.setOnClickListener {
             startActivity(Intent(this, SignUp::class.java))
